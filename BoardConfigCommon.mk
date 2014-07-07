@@ -17,8 +17,8 @@ TARGET_NO_RADIOIMAGE := true
 BOARD_HAS_NO_MISC_PARTITION := true
 
 # Time
-QCOM_RTC_FIX := true
-TARGET_USES_QCOM_TIME_DAEMON := true
+#QCOM_RTC_FIX := true
+TARGET_USES_RTC_OFFSET := true
 
 # Architecture
 TARGET_ARCH := arm
