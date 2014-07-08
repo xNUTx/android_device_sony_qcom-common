@@ -17,7 +17,7 @@ TARGET_NO_RADIOIMAGE := true
 BOARD_HAS_NO_MISC_PARTITION := true
 
 # Time
-#QCOM_RTC_FIX := true
+TARGET_RECOVERY_QCOM_RTC_FIX := false
 TARGET_USES_RTC_OFFSET := true
 
 # Architecture
